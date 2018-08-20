@@ -32,7 +32,7 @@ namespace NhatNguyen.Model.Models
         public string Image { set; get; }
 
         [Column(TypeName ="xml")]
-        public XElement MoreImages { set; get; }
+        public string MoreImages { set; get; }
         
         public decimal Price { set; get; }
 

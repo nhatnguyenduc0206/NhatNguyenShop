@@ -22,7 +22,7 @@ namespace NhatNguyen.Model.Models
 
         [Required]
         [MaxLength(256)]
-        [Column(TypeName = "varchar")]
+        [Column(TypeName ="varchar")]
         public string Alias { set; get; }
 
         [Required]
@@ -42,7 +42,6 @@ namespace NhatNguyen.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual PostCategory PostCategory { set; get; }
-
         public virtual IEnumerable<PostTag> PostTags { set; get; }
     }
 }

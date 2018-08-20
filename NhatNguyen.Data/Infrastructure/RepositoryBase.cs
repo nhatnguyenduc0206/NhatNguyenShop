@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NhatNguyen.Data.Infrastructure
 {
-    class RepositoryBase<T> : IRepository<T> where T : class
+    public abstract class RepositoryBase<T> : IRepository<T> where T : class
     {
         #region Properties
         private NhatNguyenShopDbContext dataContext;

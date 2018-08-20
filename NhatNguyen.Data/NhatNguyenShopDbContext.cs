@@ -10,7 +10,7 @@ namespace NhatNguyen.Data
 {
     public class NhatNguyenShopDbContext : DbContext
     {
-        public NhatNguyenShopDbContext() : base("NhatNguyenShopConnection")
+        public NhatNguyenShopDbContext() : base("NhatNguyenShop")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
